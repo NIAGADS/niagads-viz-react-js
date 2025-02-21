@@ -3,5 +3,6 @@
     "devDependencies": {
     },
     "dependencies": {
-    }
+    },
+    "private": "true"
 }

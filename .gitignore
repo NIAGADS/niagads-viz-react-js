@@ -8,9 +8,6 @@
 bundle-analysis.html
 dist/
 
-# npm/node
-package-lock.json
-
 # next.js
 .next
 

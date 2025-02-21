@@ -1,6 +1,6 @@
 {
     "name": "@bug_sam/table",
-    "version": "0.0.9",
+    "version": "0.0.1-alpha.0",
     "scripts": {
         "build": "rollup -c"
     },
@@ -34,8 +34,8 @@
         "typescript": "^4.9.5"
     },
     "dependencies": {
-        "@bug_sam/common": "0.0.3",
-        "@bug_sam/ui": "0.0.4",
+        "@bug_sam/common": "^0.0.1-alpha.0",
+        "@bug_sam/ui": "^0.0.1-alpha.0",
         "@heroicons/react": "^2.2.0",
         "@heroui/button": "^2.2.13",
         "@heroui/dropdown": "^2.3.13",

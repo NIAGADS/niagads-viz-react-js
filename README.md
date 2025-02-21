@@ -60,6 +60,25 @@ npx lerna run bar --scope=foo
 Right now, packages are published to sam's personal npm repo.
 In the future we will set up a niagads npm organization and publish there instead.
 
+To publish first increment the versions using lerna
+
+```bash
+npx lerna version
+```
+
+Then rebuild the packages using lerna
+
+```bash
+npx lerna run build
+```
+
+Then you can publish the packages
+
+```bash
+npx lerna package from-package
+```
+
+
 > OLD README:
 
 ## Import Component Library into 3rd-Party App
